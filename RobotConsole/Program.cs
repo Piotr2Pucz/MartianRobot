@@ -65,11 +65,11 @@ internal static class Program
             robot = robot.Move(robot, terrain, command);
         }
         /// <summary>
-        /// We printing print the final position.
+        /// We printing the final position.
         /// </summary>
         Console.WriteLine("{0},{1},{2}", robot.PositionX, robot.PositionY, robot.FacingDirection);
         /// <summary>
-        /// This command stop app showing only final position, any other information are not showing to let user easer find a result.
+        /// This command stop app showing only final position, any other information are not showing to let the user to find easer a result.
         /// </summary>
         Console.ReadKey();
     }

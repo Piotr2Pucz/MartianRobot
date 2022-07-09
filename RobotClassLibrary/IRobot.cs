@@ -3,7 +3,7 @@
     /// <summary>
     /// An interface defines a Move robot function.
     /// </summary>
-    // interface by default is public, but in this version (2022 vs) internal is using as a default access modifiers, this is a reason why if we want have access from unit-tests to this interface we need to put public before interface. When you delete it you will see only two reference to Move method instead 11 (9 references is to unit-tests).
+    // interface by default is public, but in this version (2022 vs) internal is using as a default access modifiers, this is a reason why if we want to have access from unit-tests to this interface we need to put public before interface. When you delete it you will see only two references to Move method instead 11 (9 references is to unit-tests).
     public interface IRobot
     {
         /// <summary>

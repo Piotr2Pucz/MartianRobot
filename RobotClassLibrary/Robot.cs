@@ -1,7 +1,7 @@
 ﻿namespace RobotClassLibrary
 {
     /// <summary>
-    /// Base robot Class inherit state, position and face direction, from Robot State, of robot.
+    /// Base robot Class.
     /// </summary>
     public class Robot : IRobot
     {
