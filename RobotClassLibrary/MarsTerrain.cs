@@ -18,7 +18,7 @@
         /// <param name="x">Mars terrain Longitude.<br />The maximum resolution is limited by the maximum integer variable value and is 2,147,483,647.</param>
         /// <param name="y">Mars terrain Longitude.<br />The maximum resolution is limited by the maximum integer variable value and is 2,147,483,647.</param>
         /// </summary>
-        
+
         public MarsTerrain(int x, int y)
         {
             X = x;

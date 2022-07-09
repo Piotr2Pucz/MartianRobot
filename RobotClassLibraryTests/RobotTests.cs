@@ -1,10 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RobotClassLibrary;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RobotClassLibrary.Tests
 {
@@ -85,9 +79,9 @@ namespace RobotClassLibrary.Tests
             {
                 robot = robot.Move(robot, terrain, charToCheck);
             }
-                Assert.AreEqual(robot.PositionX, 1);
-                Assert.AreEqual(robot.PositionY, 5);
-                Assert.AreEqual(robot.FacingDirection, "North");        
+            Assert.AreEqual(robot.PositionX, 1);
+            Assert.AreEqual(robot.PositionY, 5);
+            Assert.AreEqual(robot.FacingDirection, "North");
         }
 
         /// <summary>
@@ -145,7 +139,8 @@ namespace RobotClassLibrary.Tests
             Assert.AreEqual(robot.FacingDirection, "North");
         }
         /// <summary>
-        /// Test 360 degree rotation left and right.
+        /// Test Move Forward And Backward.
+        /// After this test all possible cases are tested.
         /// </summary>
         [TestMethod()]
         public void MoveForwardAndBackwardTest()
